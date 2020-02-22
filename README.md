@@ -3,6 +3,12 @@
 This repository provides boilerplate project template for Typescript + Express.js + TS.ed
   with some sample controller and middlewares integration. TS.ed provides many decorators and features for rapid development of ExpressJS application. It provides experience similar to Spring Boot (MVC framework) for server development on node platform.
 
+[TS.ed](https://tsed.io/)
+
+[Express.js](https://expressjs.com/)
+
+[Typescript](https://www.typescriptlang.org/)
+
 ## Build
   Once you clone this repository, install necessary packages using `npm install` command.
 
@@ -21,6 +27,8 @@ This repository provides boilerplate project template for Typescript + Express.j
   Run `npm run start:prod` command to start production server. This command first transpiles
   the typescript code to javascript code and output it in `dist` directory. Then it runs the
   `./dist/index.js` file using `ts-node-dev`.
+
+  Once server is running, go to browser and open url [http://localhost:5000](http://localhost:5000) and it should load index.html page.
 
 ## Lint
   Use `npm run list` command to perform syntax linting on typescript code.
